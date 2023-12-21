@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess number</title>
+</head>
+<body>
+    
+
+    
+    <script>
+        
+            
+           var rand = Math.floor(Math.random() * 10) + 1;
+
+
+    userGuess = parseInt(window.prompt('請猜一個1到10之間的數字：'));
+
+    
+    
+
+   
+
+    // 檢查使用者是否猜中
+    while(userGuess !== rand) {
+        alert('猜錯了，再試一次！');
+       userGuess = parseInt(window.prompt('請猜一個1到10之間的數字：'));
+    } 
+         alert('猜對了,恭喜!');
+    
+
+            
+        
+    </script>
+            
+</body>
+</html>
+
